@@ -1,0 +1,65 @@
+body
+{
+	background: linear-gradient(#020024,#800ec5,#00d4ff);
+	flex-direction: column;
+}
+
+section
+{
+	font-family: 'Satisfy', cursive;
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	color: black;
+	text-align: center;
+
+}
+
+h1
+{
+	font-size: 50px;
+	
+}
+
+p
+{
+	font-size: 25px;
+	color: white;
+	max-width: 500px;
+  padding: 1rem;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0,	 0)
+    ) 1 100%;
+
+}
+
+.bouton
+{
+	background-color: orange;
+	border:none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	margin: 8px 2px;
+	border-radius: 1.5rem;
+	flex-direction: column;
+
+}
+
+hr
+{
+	background-color: yellow;
+	width: 300px;
+	height: 5px;
+
+}
